@@ -41,6 +41,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="１分">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="select60secounds" destination="BYZ-38-t0r" eventType="touchUpInside" id="rCn-6W-6Zf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqe-OO-B35">
                                 <rect key="frame" x="48" y="608" width="120" height="50"/>
@@ -49,6 +52,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="5分">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="select300secounds" destination="BYZ-38-t0r" eventType="touchUpInside" id="98b-Kk-Orp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="765-Ob-qLT">
                                 <rect key="frame" x="228" y="608" width="120" height="50"/>
@@ -57,6 +63,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="１０分">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="select600sexounds" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qfs-Kl-5Uy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
