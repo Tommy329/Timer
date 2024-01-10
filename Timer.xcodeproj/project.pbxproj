@@ -13,6 +13,7 @@
 		17B180D82B36E478000AAD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B180D62B36E478000AAD65 /* Main.storyboard */; };
 		17B180DA2B36E479000AAD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B180D92B36E479000AAD65 /* Assets.xcassets */; };
 		17B180DD2B36E479000AAD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B180DB2B36E479000AAD65 /* LaunchScreen.storyboard */; };
+		17B180E52B4ECDAE000AAD65 /* ReseltViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B180E42B4ECDAE000AAD65 /* ReseltViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		17B180D92B36E479000AAD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B180DC2B36E479000AAD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17B180DE2B36E479000AAD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B180E42B4ECDAE000AAD65 /* ReseltViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReseltViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		17B180CF2B36E478000AAD65 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				17B180DE2B36E479000AAD65 /* Info.plist */,
 				17B180D02B36E478000AAD65 /* AppDelegate.swift */,
 				17B180D22B36E478000AAD65 /* SceneDelegate.swift */,
 				17B180D42B36E478000AAD65 /* ViewController.swift */,
 				17B180D62B36E478000AAD65 /* Main.storyboard */,
 				17B180D92B36E479000AAD65 /* Assets.xcassets */,
 				17B180DB2B36E479000AAD65 /* LaunchScreen.storyboard */,
-				17B180DE2B36E479000AAD65 /* Info.plist */,
+				17B180E42B4ECDAE000AAD65 /* ReseltViewController.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				17B180D52B36E478000AAD65 /* ViewController.swift in Sources */,
 				17B180D12B36E478000AAD65 /* AppDelegate.swift in Sources */,
 				17B180D32B36E478000AAD65 /* SceneDelegate.swift in Sources */,
+				17B180E52B4ECDAE000AAD65 /* ReseltViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
