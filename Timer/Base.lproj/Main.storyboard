@@ -31,7 +31,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="select10seconds" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSc-xS-ElX"/>
+                                    <action selector="select30seconds" destination="BYZ-38-t0r" eventType="touchUpInside" id="8OK-P5-f1h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="se4-cK-B4d">
