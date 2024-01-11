@@ -52,16 +52,19 @@ class ReseltViewController: UIViewController {
         }
         @IBAction func select30seconds() {
             countdown = countdown + 30
-            
+            updatelabel()
         }
         @IBAction func select60secounds() {
               countdown = countdown + 60
+            updatelabel()
         }
         @IBAction func select300secounds(){
             countdown = countdown + 300
+            updatelabel()
         }
         @IBAction func select600sexounds(){
             countdown = countdown + 600
+            updatelabel()
         }
     @IBAction func start() {
         startTimer(time: countdown)
@@ -72,5 +75,18 @@ class ReseltViewController: UIViewController {
     }
     @IBAction func reset() {
         countdown = 0
-    }
-    }
+        updatelabel()
+    }    }
+
+
+
+
+
+
+
+
+
+
+
+
+
